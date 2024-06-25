@@ -11,7 +11,11 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" /> <!-- Memuat font Raleway dari Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" /> <!-- Memuat font Lora dari Google Fonts -->
         <!-- Core theme CSS (includes Bootstrap)-->
+<<<<<<< HEAD
         <link href="css/app.css" rel="stylesheet" /> <!-- Memuat stylesheet utama untuk tema Bootstrap -->
+=======
+        <link href="css/styles.css" rel="stylesheet" /> <!-- Memuat stylesheet utama untuk tema Bootstrap -->
+>>>>>>> 3f8214b602611e87b103b1b519a74881c0a29c61
     </head>
     <body>
         <header>
@@ -35,7 +39,12 @@
                 </div>
             </div>
         </nav>
+<<<<<<< HEAD
         <!-- booking untuk pet salon -->
+=======
+
+        <!-- form booking untuk pet salon -->
+>>>>>>> 3f8214b602611e87b103b1b519a74881c0a29c61
         <section class="page-section book-table">
             <div class="container">
                 <div class="cta-inner bg-faded text-center rounded">
@@ -66,6 +75,10 @@
                             <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
                         </div>
                         <div class="text-center mt-3">
+<<<<<<< HEAD
+=======
+                            <!-- menghubungkan button payment ke payment.html -->
+>>>>>>> 3f8214b602611e87b103b1b519a74881c0a29c61
                             <a href="payment.html"><button type="submit" class="btn btn-primary">Go to Payment</button>
                         </div>
                     </form>
@@ -74,6 +87,7 @@
         </section>
         <!-- end code booking utk pet salon -->
      
+<<<<<<< HEAD
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; J&C 2024</p></div>
         </footer>
@@ -81,5 +95,17 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="{{asset('js/app.js')}}"></script>
+=======
+        <!-- footer-created by -->
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; J&C 2024</p></div>
+        </footer>
+        <!-- end code footer -->
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+>>>>>>> 3f8214b602611e87b103b1b519a74881c0a29c61
     </body>
 </html>

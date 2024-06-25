@@ -20,7 +20,6 @@
                 <span class="site-heading-lower">Gaejib Café</span>
             </h1> <!-- Header utama dengan judul situs -->
         </header>
-
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
             <div class="container">
@@ -96,8 +95,7 @@
             </div>
         </section>
 
-        <!--Page section about our cafe-->
-        <section class="page-section about-heading">  
+        <section class="page-section about-heading">  <!--Page section about our cafe-->
             <div class="container">
                 <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/about_cafe.jpg" alt="..." /> <!-- Gambar ilustrasi untuk halaman About -->
                 <div class="about-heading-content">
@@ -121,18 +119,19 @@
                 </div>
             </div>
         </section>
-        <!-- end code about our Cafe -->
 
-        <!-- footer -->
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; J&C 2024</p></div> <!-- Bagian footer dengan hak cipta -->
-        </footer>
-        <!-- end code footer -->
+        </footer><!-- end code footer -->
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Memuat Bootstrap JavaScript -->
         <!-- Core theme JS-->
+<<<<<<< HEAD
         <script src="{{asset('js/app.js')}}"></script>
         <!-- Memuat JavaScript untuk tema -->
+=======
+        <script src="js/scripts.js"></script> <!-- Memuat JavaScript untuk tema -->
+>>>>>>> 3f8214b602611e87b103b1b519a74881c0a29c61
     </body>
 </html>

@@ -37,101 +37,57 @@
             </div>
         </nav>
 
-        <!-- Menu Section -->
-        <section class="page-section menu">
+        <!-- section list menu -->
+        <section class="page-section book-table">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded">
-                            <h2 class="section-heading mb-5">
-                                <span class="section-heading-upper">Our Menu</span>
-                                <span class="section-heading-lower">Delicious & Refreshing</span>
-                            </h2>
-                            <div class="menu-section">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h3 class="menu-category">Aneka Snack & Minuman</h3>
-                                        <ul class="menu-list">
-                                            <li>Hot/ICE Gorang (Kecil) - Rp. 1.500</li>
-                                            <li>Hot/ICE Gorang (Besar) - Rp. 2.500</li>
-                                            <li>Singkong Goreng - Rp. 2.500</li>
-                                            <li>Tahu Crispy - Rp. 2.000</li>
-                                            <li>Tempe Crispy - Rp. 1.500</li>
-                                            <li>Kentang Goreng - Rp. 3.500</li>
-                                            <li>Jus Jeruk - Rp. 4.000</li>
-                                            <li>Jus Jambu - Rp. 4.000</li>
-                                            <li>Jus Alpukat - Rp. 5.000</li>
-                                            <li>Es Teh Manis - Rp. 2.000</li>
-                                            <li>Es Jeruk - Rp. 2.500</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h3 class="menu-category">Menu Utama</h3>
-                                        <ul class="menu-list">
-                                            <li>Nasi Ayam Geprek - Rp. 12.000</li>
-                                            <li>Nasi Ikan Bakar - Rp. 15.000</li>
-                                            <li>Nasi Udang Geprek - Rp. 15.000</li>
-                                            <li>Nasi Ikan Rica - Rp. 12.000</li>
-                                            <li>Nasi Tongkol Suwir - Rp. 12.000</li>
-                                            <li>Nasi Campur (Ayam/Ikan) - Rp. 12.000</li>
-                                            <li>Nasi Ikan Cakalang - Rp. 12.000</li>
-                                            <li>Nasi Kucing - Rp. 3.500</li>
-                                            <li>Bakso Ikan - Rp. 8.000</li>
-                                            <li>Bakso Bakar - Rp. 10.000</li>
-                                            <li>Mie Rebus Telur - Rp. 8.000</li>
-                                            <li>Mie Goreng Telur - Rp. 8.000</li>
-                                        </ul>
-                                    </div>
+                <div class="cta-inner bg-faded text-center rounded">
+                    <h2 class="section-heading">Our Menu</h2>
+                    <h2 class="section-heading">Delicious & Refreshing</h2>
+                        <div class="item">
+                            <img src="assets/img/products-01.jpg" alt="Mi-Sundae Oreo">
+                                <div class="info">
+                                    <h2> ★ Mi-Sundae Oreo</h2>
+                                    <p>Ice Cream Dengan Coklat Dan Taburan Oreo Yang Renyah</p>                                    <p class="price">18.000</p>
                                 </div>
+                                <button class="btn btn-primary">Tambah</button>
                             </div>
-                            <p class="mt-4">Visit us for a delightful culinary experience!</p>
+                        <div class="item">
+                            <img src="assets/img/products-02.jpg" alt="Berry Bean Sundae">
+                            <div class="info">
+                                <h2>Berry Bean Sundae</h2>
+                                <p>Ice Cream Berpadu Dengan Red Bean Yang Lembut Serta Selai Strawberry</p>
+                                <p class="price">18.000</p>
+                            </div>
+                            <button class="btn btn-primary">Tambah</button>                                </div>
+                        <div class="item">
+                            <img src="assets/img/products-03.jpg" alt="Lucky Sundae Chocolate">
+                            <div class="info">
+                                <h2> ★ Lucky Sundae Chocolate</h2>
+                                <p>Ice Cream Dengan Saus Chocolate Serta Kejutan Topping Dibawahnya</p>
+                                <p class="price">18.000</p>
+                            </div>
+                            <button class="btn btn-primary">Tambah</button>
+                            </div>
+                        <div class="item">
+
                         </div>
+                        <div class="item">
+
+                        </div>
+                        <div class="text-center mt-3">
+                        <!-- button terhubung ke payment.html  -->
+                        <a href="payment.html"><button type="submit" class="btn btn-primary">Go to Payment</button></a>
+                       </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End of Menu Section -->
+        <!-- end code list menu -->
 
-        <section class="page-section book-table">
+        <!--Page section about our cafe-->
+        <section class="page-section about-heading">  
             <div class="container">
-                <div class="cta-inner bg-faded text-center rounded">
-                    <h2 class="section-heading">Order Food</h2>
-                    <p class="text-muted mb-5">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-                    <form>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Your Name" required />
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" placeholder="Your Email" required />
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Your Phone" required />
-                            </div>
-                            <div class="col-md-6">
-                                <input type="number" class="form-control" placeholder="# of people" required />
-                            </div>
-                            <div class="col-md-6">
-                                <input type="date" class="form-control" placeholder="Date" required />
-                            </div>
-                            <div class="col-md-6">
-                                <input type="time" class="form-control" placeholder="Time" required />
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="text-center mt-3">
-                            <a href="payment.html"><button type="submit" class="btn btn-primary">Go to Payment</button></a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <section class="page-section about-heading">
-            <div class="container">
-                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/about_cafe.jpg" alt="..." />
+                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/about_cafe.jpg" alt="..." /> <!-- Gambar ilustrasi untuk halaman About -->
                 <div class="about-heading-content">
                     <div class="row">
                         <div class="col-xl-9 col-lg-10 mx-auto">
@@ -150,12 +106,27 @@
                 </div>
             </div>
         </section>
+        <!-- end code about our cafe -->
+
+        <!-- footer-created by -->
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; J&C 2024</p></div>
         </footer>
+<<<<<<< HEAD
 
          <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Memuat Bootstrap JavaScript -->
         <!-- Core theme JS-->
         <script src="{{asset('js/app.js')}}"></script>
         <!-- Memuat JavaScript untuk tema -->
+=======
+        <!-- end code footer -->
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Memuat Bootstrap JavaScript -->
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script> 
+        <!-- Memuat JavaScript untuk tema -->
+    </body>
+</html>
+>>>>>>> 3f8214b602611e87b103b1b519a74881c0a29c61
