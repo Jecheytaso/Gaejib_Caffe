@@ -88,7 +88,7 @@
     <div class="text-center">
         <button class="btn btn-primary">Payment</button>
     </div>
-/div>{{-- <btn btn-primary btn-lg --}}
+{{-- </div>btn btn-primary btn-lg --}}
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>

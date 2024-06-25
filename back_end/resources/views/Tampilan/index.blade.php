@@ -51,7 +51,7 @@
                             mereka, kami menjamin bahwa mereka ramah dan sudah di vaksinasi. Kafe kami juga menyediakan banyak fasilitas. 
                             Ada pet salon,  rooftop dog park, dan dog pool.
                         </p>
-                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="{{asset('about')}}">Visit Us Today!</a></div>
+                        <div class="intro-button mx-auto"><a class="btn btn-primary" href="{{asset('about')}}">Visit Us Today!</a></div>
                     </div>
                 </div>
             </div>
