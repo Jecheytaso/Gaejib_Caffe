@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" /> <!-- Memuat font Raleway dari Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" /> <!-- Memuat font Lora dari Google Fonts -->
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" /> <!-- Memuat stylesheet utama untuk tema Bootstrap -->
+        <link href="{{asset('css/app.css'}}" rel="stylesheet" /> <!-- Memuat stylesheet utama untuk tema Bootstrap -->
     </head>
     <body>
         <header>
@@ -132,7 +132,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Memuat Bootstrap JavaScript -->
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="{{asset('js/app.js')}}"></script>
         <!-- Memuat JavaScript untuk tema -->
     </body>
 </html>
