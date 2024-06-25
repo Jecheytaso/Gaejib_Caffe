@@ -6,12 +6,12 @@
         <meta name="description" content="" />
         <meta name="author" content="" /> <!-- Meta informasi penulis halaman -->
         <title>Gaejib Café</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/gaejib.jpg" /> <!-- Ikon favorit yang ditampilkan di tab browser sebagai ikon logo -->
+        <link rel="icon" type="image/x-icon" href="{{asset('image/gaejib.jpg')}}" /> <!-- Ikon favorit yang ditampilkan di tab browser sebagai ikon logo -->
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" /> <!-- Memuat font Raleway dari Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" /> <!-- Memuat font Lora dari Google Fonts -->
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/app.css" rel="stylesheet" /> <!-- Memuat stylesheet utama untuk tema Bootstrap -->
+        <link href="{{asset('css/app.css')}}" rel="stylesheet" /> <!-- Memuat stylesheet utama untuk tema Bootstrap -->
     </head>
     <body>
         <header>
@@ -24,14 +24,14 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
             <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Gaejib Café</a> <!-- Brand name untuk layar kecil -->
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.blade.php">Gaejib Café</a> <!-- Brand name untuk layar kecil -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button> <!-- Tombol toggler untuk navigasi responsif -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li> <!-- Link navigasi ke halaman Home -->
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li> <!-- Link navigasi ke halaman About -->
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Booking.html">Booking</a></li> <!-- Link navigasi ke halaman Booking -->
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="Order.html">Food Order</a></li> <!-- Link navigasi ke halaman Food Order -->
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="/">Home</a></li> <!-- Link navigasi ke halaman Home -->
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('about')}}">About</a></li> <!-- Link navigasi ke halaman About -->
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('booking')}}">Booking</a></li> <!-- Link navigasi ke halaman Booking -->
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('order')}}">Food Order</a></li> <!-- Link navigasi ke halaman Food Order -->
                     </ul>
                 </div>
             </div>
@@ -41,7 +41,7 @@
         <section class="page-section clearfix">
             <div class="container">
                 <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/home foto.jpg" alt="..." />
+                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{asset('image/home foto.jpg')}}" alt="..." />
                     <div class="intro-text left-0 text-center bg-faded p-5 rounded">
                         <h2 class="section-heading mb-4">
                             <span class="section-heading-upper">Friendly Pets</span>
@@ -51,7 +51,7 @@
                             mereka, kami menjamin bahwa mereka ramah dan sudah di vaksinasi. Kafe kami juga menyediakan banyak fasilitas. 
                             Ada pet salon,  rooftop dog park, dan dog pool.
                         </p>
-                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visit Us Today!</a></div>
+                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="{{asset('about')}}">Visit Us Today!</a></div>
                     </div>
                 </div>
             </div>
