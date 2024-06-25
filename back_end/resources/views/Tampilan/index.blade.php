@@ -89,11 +89,8 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Memuat Bootstrap JavaScript -->
         <!-- Core theme JS-->
-<<<<<<< HEAD
+
         <script src="{{asset('js/app.js')}}"></script>
-=======
-        <script src="js/scripts.js"></script> 
->>>>>>> 3f8214b602611e87b103b1b519a74881c0a29c61
-        <!-- Memuat JavaScript untuk tema -->
+    
     </body>
 </html>
