@@ -93,7 +93,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="{{asset('image/products-05.jpg')}}" alt="Mango Sundae">
+                    <img src="{{asset('image/products-05.jpeg')}}" alt="Mango Sundae">
                     <div class="info">
                         <h2>Mango Sundae</h2>
                         <p>Ice Cream Vanilla Dengan Potongan Mangga Asli</p>
@@ -105,7 +105,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="{{asset('image/products-03.jpg')}}" alt="Ice Cream Black Tea">
+                    <img src="{{asset('image/products-06.jpg')}}" alt="Ice Cream Black Tea">
                     <div class="info">
                         <h2>★ Ice Cream Black Tea</h2>
                         <p>Black Tea Dengan Ice Cream Lembut Di Atasnya</p>
