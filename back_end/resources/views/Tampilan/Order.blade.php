@@ -37,52 +37,94 @@
             </div>
         </nav>
 
-        <!-- section list menu -->
-        <section class="page-section book-table">
-            <div class="container">
-                <div class="cta-inner bg-faded text-center rounded">
-                    <h2 class="section-heading">Our Menu</h2>
-                    <h2 class="section-heading">Delicious & Refreshing</h2>
-                        <div class="item">
-                            <img src="{{asset('image/products-01.jpg')}}" alt="Mi-Sundae Oreo">
-                                <div class="info">
-                                    <h2> ★ Mi-Sundae Oreo</h2>
-                                    <p>Ice Cream Dengan Coklat Dan Taburan Oreo Yang Renyah</p>                                    <p class="price">18.000</p>
-                                </div>
-                                <button class="btn btn-primary">Tambah</button>
-                            </div>
-                        <div class="item">
-                            <img src="{{asset('image/products-01.jpg')}}" alt="Berry Bean Sundae">
-                            <div class="info">
-                                <h2>Berry Bean Sundae</h2>
-                                <p>Ice Cream Berpadu Dengan Red Bean Yang Lembut Serta Selai Strawberry</p>
-                                <p class="price">18.000</p>
-                            </div>
-                            <button class="btn btn-primary">Tambah</button>                                </div>
-                        <div class="item">
-                            <img src="{{asset('image/products-01.jpg')}}" alt="Lucky Sundae Chocolate">
-                            <div class="info">
-                                <h2> ★ Lucky Sundae Chocolate</h2>
-                                <p>Ice Cream Dengan Saus Chocolate Serta Kejutan Topping Dibawahnya</p>
-                                <p class="price">18.000</p>
-                            </div>
-                            <button class="btn btn-primary">Tambah</button>
-                            </div>
-                        <div class="item">
+    <!-- section list menu -->
+    <section class="page-section book-table">
+        <div class="container">
+            <div class="cta-inner bg-faded text-center rounded">
+                <h2 class="section-heading">Our Menu</h2>
+                <h2 class="section-heading">Delicious & Refreshing</h2>
 
-                        </div>
-                        <div class="item">
-
-                        </div>
-                        <div class="text-center mt-3">
-                        <!-- button terhubung ke payment.blade.php  -->
-                        <a href="{{asset('payment')}}"><button type="submit" class="btn btn-primary">Go to Payment</button></a>
-                       </div>
+                <div class="item">
+                    <img src="{{asset('image/products-01.jpg')}}" alt="Mi-Sundae Oreo">
+                    <div class="info">
+                        <h2>★ Mi-Sundae Oreo</h2>
+                        <p>Ice Cream Dengan Coklat Dan Taburan Oreo Yang Renyah</p>
+                        <p class="price">18.000</p>
+                    </div>
+                    <div class="btn-container" id="mi-sundae-oreo">
+                        <button class="btn" onclick="addItem('mi-sundae-oreo')">+</button>
                     </div>
                 </div>
+
+                <div class="item">
+                    <img src="{{asset('image/products-02.jpg')}}" alt="Berry Bean Sundae">
+                    <div class="info">
+                        <h2>Berry Bean Sundae</h2>
+                        <p>Ice Cream Berpadu Dengan Red Bean Yang Lembut Serta Selai Strawberry</p>
+                        <p class="price">18.000</p>
+                    </div>
+                    <div class="btn-container" id="berry-bean-sundae">
+                        <button class="btn" onclick="addItem('berry-bean-sundae')">+</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="{{asset('image/products-03.jpg')}}" alt="Lucky Sundae Chocolate">
+                    <div class="info">
+                        <h2>★ Lucky Sundae Chocolate</h2>
+                        <p>Ice Cream Dengan Saus Chocolate Serta Kejutan Topping Dibawahnya</p>
+                        <p class="price">18.000</p>
+                    </div>
+                    <div class="btn-container" id="lucky-sundae-chocolate">
+                        <button class="btn" onclick="addItem('lucky-sundae-chocolate')">+</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="{{asset('image/products-01.jpg')}}" alt="Mi-Sundae Boba">
+                    <div class="info">
+                        <h2>★ Mi-Sundae Boba</h2>
+                        <p>Ice Cream Berpadu Dengan Pearl Yang Kenyal Serta Selai Brown Sugar</p>
+                        <p class="price">18.000</p>
+                    </div>
+                    <div class="btn-container" id="mi-sundae-boba">
+                        <button class="btn" onclick="addItem('mi-sundae-boba')">+</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="{{asset('image/products-02.jpg')}}" alt="Kiwi Grape Sundae">
+                    <div class="info">
+                        <h2>Kiwi Grape Sundae</h2>
+                        <p>Ice Cream Berpadu Dengan Fresh Kiwi Dan Fresh Anggur</p>
+                        <p class="price">18.000</p>
+                    </div>
+                    <div class="btn-container" id="kiwi-grape-sundae">
+                        <button class="btn" onclick="addItem('kiwi-grape-sundae')">+</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="{{asset('image/products-03.jpg')}}" alt="Ice Cream Black Tea">
+                    <div class="info">
+                        <h2>★ Ice Cream Black Tea</h2>
+                        <p>Black Tea Dengan Ice Cream Lembut Di Atasnya</p>
+                        <p class="price">15.000</p>
+                    </div>
+                    <div class="btn-container" id="ice-cream-black-tea">
+                        <button class="btn" onclick="addItem('ice-cream-black-tea')">+</button>
+                    </div>
+                </div>
+
+                <!-- payment button -->
+                <div class="text-center mt-3">
+                    <!-- button terhubung ke payment.html -->
+                    <a href="{{asset('payment')}}"><button type="submit" class="btn btn-primary">Checkout</button></a>
+                </div>
             </div>
-        </section>
-        <!-- end code list menu -->
+        </div>
+    </section>
+    <!-- end code payment button -->
 
         <!--Page section about our cafe-->
         <section class="page-section about-heading">  
@@ -118,5 +160,42 @@
         <!-- Core theme JS-->
         <script src="{{asset('js/app.js')}}"></script>
         <!-- Memuat JavaScript untuk tema -->
+
+        <!-- script fungsi button + di bagian menu  -->
+    <script>
+        function addItem(itemId) {
+            const itemContainer = document.getElementById(itemId);
+            itemContainer.innerHTML = `
+                <button class="btn" onclick="removeItem('${itemId}')">-</button>
+                <span class="count">1</span>
+                <button class="btn" onclick="increaseItem('${itemId}')">+</button>
+            `;
+        }
+
+        function removeItem(itemId) {
+            const itemContainer = document.getElementById(itemId);
+            const countElement = itemContainer.querySelector('.count');
+            let count = parseInt(countElement.textContent);
+
+            if (count > 1) {
+                count--;
+                countElement.textContent = count;
+            } else {
+                itemContainer.innerHTML = `
+                    <button class="btn" onclick="addItem('${itemId}')">+</button>
+                `;
+            }
+        }
+
+        function increaseItem(itemId) {
+            const itemContainer = document.getElementById(itemId);
+            const countElement = itemContainer.querySelector('.count');
+            let count = parseInt(countElement.textContent);
+            count++;
+            countElement.textContent = count;
+        }
+    </script>
+    <!-- end code fungsi button + di bagian menu -->
+     
 </body>
 </html>

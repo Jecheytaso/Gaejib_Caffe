@@ -11087,29 +11087,54 @@ p {
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
 }
+
 .item img {
   width: 80px;
   height: 80px;
   margin-right: 10px;
 }
+
 .item .info {
   flex: 1;
 }
+
 .item .info h2 {
   font-size: 16px;
   margin: 0;
 }
+
 .item .info p {
   margin: 5px 0;
 }
+
 .item .info .price {
   font-weight: bold;
+}
+
+.item .controls {
+  display: flex;
+  align-items: center;
+}
+.item .controls button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.item .controls input {
+  width: 30px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 /* payment */
 body {
   padding-top: 20px;
-}hhh
+}
 
 .checkout-container {
   max-width: 600px;
