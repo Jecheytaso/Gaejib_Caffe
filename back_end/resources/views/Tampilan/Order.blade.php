@@ -45,7 +45,7 @@
                 <h2 class="section-heading">Delicious & Refreshing</h2>
 
                 <div class="item">
-                    <img src="{{asset('image/products-01.jpg')}}" alt="Mi-Sundae Oreo">
+                    <img src="{{asset('image/products-02.jpeg')}}" alt="Mi-Sundae Oreo">
                     <div class="info">
                         <h2>★ Mi-Sundae Oreo</h2>
                         <p>Ice Cream Dengan Coklat Dan Taburan Oreo Yang Renyah</p>
@@ -57,7 +57,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="{{asset('image/products-02.jpg')}}" alt="Berry Bean Sundae">
+                    <img src="{{asset('image/products-01.jpg')}}" alt="Berry Bean Sundae">
                     <div class="info">
                         <h2>Berry Bean Sundae</h2>
                         <p>Ice Cream Berpadu Dengan Red Bean Yang Lembut Serta Selai Strawberry</p>
@@ -69,7 +69,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="{{asset('image/products-03.jpg')}}" alt="Lucky Sundae Chocolate">
+                    <img src="{{asset('image/products-04.jpg')}}" alt="Lucky Sundae Chocolate">
                     <div class="info">
                         <h2>★ Lucky Sundae Chocolate</h2>
                         <p>Ice Cream Dengan Saus Chocolate Serta Kejutan Topping Dibawahnya</p>
@@ -81,7 +81,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="{{asset('image/products-01.jpg')}}" alt="Mi-Sundae Boba">
+                    <img src="{{asset('image/products-03.jpg')}}" alt="Mi-Sundae Boba">
                     <div class="info">
                         <h2>★ Mi-Sundae Boba</h2>
                         <p>Ice Cream Berpadu Dengan Pearl Yang Kenyal Serta Selai Brown Sugar</p>
@@ -93,14 +93,14 @@
                 </div>
 
                 <div class="item">
-                    <img src="{{asset('image/products-02.jpg')}}" alt="Kiwi Grape Sundae">
+                    <img src="{{asset('image/products-05.jpg')}}" alt="Mango Sundae">
                     <div class="info">
-                        <h2>Kiwi Grape Sundae</h2>
-                        <p>Ice Cream Berpadu Dengan Fresh Kiwi Dan Fresh Anggur</p>
+                        <h2>Mango Sundae</h2>
+                        <p>Ice Cream Vanilla Dengan Potongan Mangga Asli</p>
                         <p class="price">18.000</p>
                     </div>
-                    <div class="btn-container" id="kiwi-grape-sundae">
-                        <button class="btn" onclick="addItem('kiwi-grape-sundae')">+</button>
+                    <div class="btn-container" id="mango-sundae">
+                        <button class="btn" onclick="addItem('mango-sundae')">+</button>
                     </div>
                 </div>
 
@@ -196,6 +196,6 @@
         }
     </script>
     <!-- end code fungsi button + di bagian menu -->
-     
+
 </body>
 </html>
