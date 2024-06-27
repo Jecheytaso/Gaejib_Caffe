@@ -19,7 +19,7 @@
                 <span class="site-heading-upper text-primary mb-3">Dog Cafe, Rooftop Dog Park, Dog Pool & Day Care</span>
                 <span class="site-heading-lower">Gaejib Café</span>
             </h1> <!-- Header utama dengan judul situs -->
-        </header>
+        </header> 
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
             <div class="container">
@@ -31,6 +31,8 @@
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset('about')}}">About</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset('booking')}}">Booking</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset('order')}}">Food Order</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset ('login')}}" data-bs-target="#signupModal">Login</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a></li>
                     </ul>
                 </div>
             </div>

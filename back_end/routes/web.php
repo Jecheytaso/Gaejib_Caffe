@@ -25,3 +25,5 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/booking', [BookingController::class, 'index'])->name('booking');
 Route::get('/order', [OrderController::class, 'index'])->name('order');
 Route::get('/payment', [PaymentController::class, 'index'])->name('payment');
+Route::get('/register', [AuthController :: class, 'register'])->name('register');
+Route::post('/register', [AuthController :: class, 'registerPost'])->name('register');
