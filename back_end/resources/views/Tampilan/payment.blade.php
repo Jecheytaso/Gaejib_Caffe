@@ -32,7 +32,7 @@
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset('about')}}">About</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset('booking')}}">Booking</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset('order')}}">Food Order</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset ('login')}}" data-bs-toggle="modal" data-bs-target="#signupModal">Login</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset ('login')}}" >Login</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a></li>
                     </ul>
                 </div>

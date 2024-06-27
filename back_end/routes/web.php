@@ -5,6 +5,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,5 +26,4 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/booking', [BookingController::class, 'index'])->name('booking');
 Route::get('/order', [OrderController::class, 'index'])->name('order');
 Route::get('/payment', [PaymentController::class, 'index'])->name('payment');
-Route::get('/register', [AuthController :: class, 'register'])->name('register');
-Route::post('/register', [AuthController :: class, 'registerPost'])->name('register');
+Route::get('/login', [LoginController :: class, 'index'])->name('login');

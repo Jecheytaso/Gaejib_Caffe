@@ -32,7 +32,7 @@
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('about')}}">About</a></li> <!-- Link navigasi ke halaman About -->
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('booking')}}">Booking</a></li> <!-- Link navigasi ke halaman Booking -->
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{route('order')}}">Food Order</a></li> <!-- Link navigasi ke halaman Food Order -->
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset ('login')}}" data-bs-toggle="modal" data-bs-target="#signupModal">Login</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset ('login')}}" >Login</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a></li>
                     </ul>
                 </div>
