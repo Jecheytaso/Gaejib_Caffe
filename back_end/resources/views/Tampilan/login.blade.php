@@ -6,12 +6,12 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Gaejib Café</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/gaejib.jpg" />
+    <link rel="icon" type="image/x-icon" href="{{asset('image/gaejib.jpg')}}" />
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="{{asset('css/app.css')}}" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -32,7 +32,7 @@
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset('about')}}">About</a></li>
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset('Booking')}}">Booking</a></li>
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset('Order')}}">Food Order</a></li>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset ('login')}}" >Login</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="{{asset ('login')}}" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
                     <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a></li>
                 </ul>
             </div>
