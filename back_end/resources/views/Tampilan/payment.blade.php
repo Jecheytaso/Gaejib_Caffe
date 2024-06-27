@@ -47,7 +47,19 @@
         <h5>Ordered Items (1)</h5>
         <div class="item d-flex justify-content-between align-items-center">
             <div>
-                <p class="m-0"><strong>BROWNIES</strong></p>
+                <p class="m-0"><strong>Mi-Sundae Oreo</strong></p>
+                <p class="m-0 text-muted">No notes yet</p>
+            </div>
+            <div class="d-flex align-items-center">
+                <button class="btn btn-outline-secondary btn-sm">-</button>
+                <span class="mx-2">2</span>
+                <button class="btn btn-outline-secondary btn-sm">+</button>
+            </div>
+            <p class="m-0">Rp18.000</p>
+        </div>
+        <div class="item d-flex justify-content-between align-items-center">
+            <div>
+                <p class="m-0"><strong>Mango Sundae</strong></p>
                 <p class="m-0 text-muted">No notes yet</p>
             </div>
             <div class="d-flex align-items-center">
@@ -55,7 +67,7 @@
                 <span class="mx-2">1</span>
                 <button class="btn btn-outline-secondary btn-sm">+</button>
             </div>
-            <p class="m-0">Rp11.818</p>
+            <p class="m-0">Rp18.000</p>
         </div>
         <div class="mt-3">
             <a href="#" class="btn btn-outline-secondary btn-sm">+ Add Item</a>
@@ -65,32 +77,32 @@
     <div class="payment-details mb-4">
         <h5>Payment Details</h5>
         <div class="d-flex justify-content-between">
-            <span>Subtotal (1 menu)</span>
-            <span>Rp11.818</span>
+            <span>Subtotal (3 menu)</span>
+            <span>Rp54.000</span>
         </div>
         <div class="d-flex justify-content-between">
             <span>Rounding</span>
-            <span>Rp0,2</span>
+            <span>Rp0</span>
         </div>
         <div class="d-flex justify-content-between">
             <span>Other fees</span>
-            <span>Rp1.181,8</span>
+            <span>Rp5.400</span>
         </div>
         <div class="d-flex justify-content-between font-weight-bold">
             <span>Total</span>
-            <span>Rp13.000</span>
+            <span>Rp59.400</span>
         </div>
     </div>
 
     <div class="total-payment text-center mb-4">
         <h4>Total Payment</h4>
-        <h3>Rp13.000</h3>
+        <h3>Rp59.400</h3>
     </div>
 
     <div class="text-center">
         <button class="btn btn-primary">Payment</button>
     </div>
-{{-- </div>btn btn-primary btn-lg --}}
+</div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
